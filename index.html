@@ -26,8 +26,17 @@
       .custom-text-black {
         color: black;
       }
-      .custom-padding-3 {
-        padding: 1rem !important; /* sovrascrivi la classe di Bootstrap per il padding */
+      .custom-bg-green {
+        background-color: green;
+      }
+      .custom-bg-red {
+        background-color: red;
+      }
+      .custom-bg-gray {
+        background-color: gray;
+      }
+      .custom-bg-lightblue {
+        background-color: lightblue;
       }
     </style>
   </head>
@@ -80,6 +89,133 @@
             class="custom-bg-yellow custom-text-black custom-padding-3 border border-dark"
           >
             <p>Contenuto della terza colonna</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid custom-bg-green custom-text-white custom-padding-3 border border-dark"
+    >
+      <div class="row">
+        <div class="col-4">
+          <p>Colonna 1</p>
+        </div>
+        <div class="col-4">
+          <p>Colonna 2</p>
+        </div>
+        <div class="col-4">
+          <p>Colonna 3</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row d-none d-md-flex">
+        <div
+          class="col-md-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 1</p>
+        </div>
+        <div
+          class="col-md-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 2</p>
+        </div>
+        <div
+          class="col-md-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 3</p>
+        </div>
+      </div>
+      <div class="row d-none d-lg-flex">
+        <div
+          class="col-lg-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 1</p>
+        </div>
+        <div
+          class="col-lg-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 2</p>
+        </div>
+        <div
+          class="col-lg-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 3</p>
+        </div>
+      </div>
+      <div class="row d-none d-xl-flex">
+        <div
+          class="col-xl-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 1</p>
+        </div>
+        <div
+          class="col-xl-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 2</p>
+        </div>
+        <div
+          class="col-xl-4 custom-bg-green custom-text-white custom-padding-3 border border-dark"
+        >
+          <p>Colonna 3</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div
+            class="custom-bg-red custom-text-white custom-padding-3 border border-dark"
+          >
+            <p>Colonna 1</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="custom-bg-red custom-text-white custom-padding-3 border border-dark"
+          >
+            <p>Colonna 2</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="custom-bg-red custom-text-white custom-padding-3 border border-dark"
+          >
+            <p>Colonna 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mb-3 mb-md-0">
+          <div
+            class="custom-bg-lightblue custom-text-white custom-padding-3 border border-dark"
+          >
+            <p>Colonna più grande</p>
+            <div class="row">
+              <div class="col-6">
+                <div
+                  class="custom-bg-gray custom-text-white custom-padding-3 border border-dark"
+                >
+                  <p>Colonna annidata 1</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div
+                  class="custom-bg-gray custom-text-white custom-padding-3 border border-dark"
+                >
+                  <p>Colonna annidata 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="custom-bg-lightblue custom-text-white custom-padding-3 border border-dark"
+          >
+            <p>Colonna più piccola</p>
           </div>
         </div>
       </div>
